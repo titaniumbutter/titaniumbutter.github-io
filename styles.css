@@ -1,0 +1,76 @@
+
+
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(193,113,117,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+i {
+	font-size: 120px;
+}
+
+.stackList {
+  display: grid;
+  grid-template-columns: repeat(3,150px); 
+  grid-template-rows: repeat(4,120px); 
+  grid-gap:50px 30px; 
+  text-align: center;
+}
+
+.myStackTitle {
+	flex: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.name {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.fullName {
+	text-align: center;
+}
+
+.bio {
+	text-align: center;
+}
+
+.contactTitle {
+	text-align: center;
+}
+.projectTitle {
+	text-align: center;
+}
+.projects {
+	margin-top: 5px;
+}
+
+.iconName {
+	text-align: center;
+}
+
+img {
+	border-radius: 50%;
+}
+
+.contactList {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
